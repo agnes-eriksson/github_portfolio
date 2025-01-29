@@ -6,17 +6,23 @@ body {
     color: #333;
     text-align: center;
     transition: background 0.3s, color 0.3s;
+    padding-top: 80px;
 }
 
 header {
-    background: #4CAF50;
+    background: #7b79ed;
     color: white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 nav ul {
     list-style: none;
     padding: 0;
@@ -35,7 +41,7 @@ nav ul li a {
 
 #dark-mode-toggle {
     background: white;
-    color: #4CAF50;
+    color: #2b1772;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -103,6 +109,13 @@ a {
     color: #4CAF50;
 }
 
+.dark-mode header {
+    background: #222;
+}
+
+.dark-mode nav ul li a {
+    color: white;
+}
 /* Animations */
 @keyframes fadeInUp {
     from {
