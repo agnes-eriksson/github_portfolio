@@ -40,19 +40,18 @@ nav ul li a {
 }
 
 #dark-mode-toggle {
-    background: rgb(19, 98, 244);
+    background: rgb(148, 27, 217);
     color: #2b1772;
-    border: none;
+    border-color: #200731;
+    border-radius: 10%;
     padding: 10px;
     cursor: pointer;
-    font-size: 16px;
     border-radius: 5px;
     transition: 0.3s;
-    padding-right: 10%;
 }
 
 #dark-mode-toggle:hover {
-    background: #ddd;
+    background: #4a37bf;
 }
 
 section {
@@ -107,7 +106,7 @@ a {
 }
 
 .dark-mode a {
-    color: #4CAF50;
+    color: #a3c9ff;
 }
 
 .dark-mode header {
