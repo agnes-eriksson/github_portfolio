@@ -5,8 +5,8 @@ toggleButton.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
     
     if (body.classList.contains('dark-mode')) {
-        toggleButton.textContent = "☀️ Light Mode";
+        toggleButton.textContent = "☀️";
     } else {
-        toggleButton.textContent = "🌙 Dark Mode";
+        toggleButton.textContent = "🌙";
     }
 });
