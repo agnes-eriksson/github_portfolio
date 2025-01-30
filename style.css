@@ -3,10 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-    color: #333;
+    color: #a63ede;
     text-align: center;
     transition: background 0.3s, color 0.3s;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 header {
@@ -48,6 +48,7 @@ nav ul li a {
     font-size: 16px;
     border-radius: 5px;
     transition: 0.3s;
+    padding-right: 10%;
 }
 
 #dark-mode-toggle:hover {
@@ -67,7 +68,7 @@ section {
 }
 
 h2 {
-    color: #4CAF50;
+    color: #653dde;
 }
 
 img {
@@ -89,7 +90,7 @@ img {
 }
 
 a {
-    color: #4CAF50;
+    color: #3434df;
     text-decoration: none;
     font-weight: bold;
 }
