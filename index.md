@@ -15,11 +15,22 @@ There should be whitespace between paragraphs. We recommend including a README, 
 <p style="color: red;">This text is red!</p>
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## Header 2
-
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
+
+## Projects
+* * *
+
+### Enzyme Match 
+
+![Enzyme Match Image](EnzymeMatch.png)
+
+####**On Display in ThinkTank Birmingham**
+
+Enzyme Match is a C# group project developed in Unity Engine. It provides a gamified experience designed to teach children about enzymes. The project was commissioned as part of an interdisciplinary module and is now permanently on display in the Thinking About Me section of the Birmingham ThinkTank.
+
+![alt text](WhatIDidEM.png)
 
 ### Header 3
 
